@@ -233,6 +233,8 @@ h6 {
   }
 }
 
+
+
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
@@ -778,6 +780,7 @@ section,
     scroll-margin-top: 66px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Global Section Titles
@@ -8563,7 +8566,7 @@ section,
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
-  color: #d9534f; /* attention color */
+  color: #ffff; /* attention color */
   gap: 8px;
 }
 
