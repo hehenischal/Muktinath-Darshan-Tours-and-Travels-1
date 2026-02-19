@@ -1012,52 +1012,31 @@ section,
 --------------------------------------------------------------*/
 
 
-/* Button Base Style */
+.booking-card {
+  text-align: center; /* center everything inside card */
+}
+
+/* Button Style */
 .btn-book {
-  display: inline-block;
-  background: linear-gradient(135deg, #25D366, #128C7E); /* WhatsApp colors */
+  background-color: #1794BA; /* your requested color */
   color: #fff;
   font-weight: bold;
-  padding: 12px 30px;
+  font-size: 18px;
+  padding: 12px 35px;
   border: none;
-  border-radius: 50px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* Hover Effect */
+/* Hover Animation */
 .btn-book:hover {
+  background-color: #1272A3; /* slightly darker on hover */
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-/* Animated Glow */
-.btn-book::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
-  opacity: 0;
-  transition: all 0.5s ease;
-}
-
-.btn-book:hover::before {
-  opacity: 1;
-  transform: rotate(45deg) scale(1.2);
-}
-
-/* Optional: Add subtle hover text effect */
-.btn-book span {
-  position: relative;
-  z-index: 1;
-}
 
 /*--------------------------------------------------------------
 # Why Us Section
@@ -8640,4 +8619,32 @@ section,
     flex-direction: column;
     text-align: center;
   }
+}
+
+/*--------------------------------------------------------------
+# WhatsApp Floating Button 
+--------------------------------------------------------------*/
+.whatsapp-float {
+  position: fixed;
+  right: 20px;
+  bottom: 70px; /* Adjust if you also have scroll-to-top button */
+  width: 50px;
+  height: 50px;
+  background-color: #1794BA;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.1);
+  color: #fff;
 }

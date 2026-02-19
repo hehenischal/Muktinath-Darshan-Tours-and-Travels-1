@@ -131,7 +131,7 @@
         </div>
 
         <!-- Itinerary -->
-          <div class="tour-itinerary" data-aos="fade-up" data-aos-delay="300">
+          <!-- <div class="tour-itinerary" data-aos="fade-up" data-aos-delay="300">
             <h2>Day-by-Day Itinerary</h2>
             <div class="itinerary-timeline">
 
@@ -220,7 +220,7 @@
               </div>
 
             </div>
-          </div>
+          </div> -->
 
 
         
@@ -270,70 +270,17 @@
 
 
         <!-- Booking Form -->
-        <div class="booking-section" id="booking" data-aos="fade-up" data-aos-delay="600">
-          <div class="booking-card">
-            <h2>Book This Tour</h2>
-            <form action="forms/tour-booking.php" method="post" class="php-email-form">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <label for="travel-date">Preferred Travel Date</label>
-                    <select name="date" id="travel-date" class="form-control" required="">
-                      <option value="">Select a date</option>
-                      <option value="May 15-26">May 15-26, 2024</option>
-                      <option value="June 12-23">June 12-23, 2024</option>
-                      <option value="July 10-21">July 10-21, 2024</option>
-                      <option value="August 14-25">August 14-25, 2024</option>
-                      <option value="September 18-29">September 18-29, 2024</option>
-                      <option value="October 9-20">October 9-20, 2024</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <label for="travelers">Number of Travelers</label>
-                    <select name="travelers" id="travelers" class="form-control" required="">
-                      <option value="">Select travelers</option>
-                      <option value="1">1 Traveler</option>
-                      <option value="2">2 Travelers</option>
-                      <option value="3">3 Travelers</option>
-                      <option value="4">4 Travelers</option>
-                      <option value="5">5 Travelers</option>
-                      <option value="6+">6+ Travelers</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name" class="form-control" required="">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email" class="form-control" required="">
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" id="phone" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="message">Special Requests or Questions</label>
-                <textarea name="message" id="message" rows="4" class="form-control" placeholder="Any dietary restrictions, accessibility needs, or special occasions..."></textarea>
-              </div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your booking request has been sent. We'll contact you within 24 hours!</div>
-              <button type="submit" class="btn-submit">Send Booking Request</button>
-            </form>
+          <div class="booking-section" id="booking" data-aos="fade-up" data-aos-delay="600">
+            <div class="booking-card">
+              <h2>Book This Tour</h2>
+              
+              <!-- Centered WhatsApp button -->
+              <form action="https://wa.me/9779848259332" method="get" target="_blank" class="whatsapp-form">
+                <input type="hidden" name="text" value="Namaste I am interested in booking the Canyoning Service Tour. I visited your website and would love to receive more details about availability and pricing. Thank you!">
+                <button type="submit" class="btn-book">Book Now</button>
+              </form>
+            </div>
           </div>
-        </div>
-
 
 
     <!-- Final CTA -->
@@ -348,9 +295,9 @@
             </p>
 
             <div class="cta-actions">
-              <a href="booking.html" class="btn-primary">
+              <!-- <a href="booking.html" class="btn-primary">
                 Book Your Pilgrimage Today
-              </a>
+              </a> -->
 
               <a href="tel:+9779812345678" class="btn-secondary">
                 <i class="bi bi-telephone-fill"></i> Call Us: +977 9812345678
