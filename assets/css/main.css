@@ -8670,3 +8670,29 @@ section,
   padding: 4px 10px;
   border-radius: 15px;
 }
+
+
+/*--------------------------------------------------------------
+# Detail Page WhatsApp Button 
+--------------------------------------------------------------*/
+
+.btn-book {
+  background-color: #28A957;
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-book:hover {
+  background-color: #28A957; 
+  transform: scale(1.05);
+}
+
+.btn-book {
+  background-color: #28A957 !important;
+  border: none !important;
+  color: #fff !important;
+}
