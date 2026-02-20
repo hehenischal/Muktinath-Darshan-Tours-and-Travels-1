@@ -8648,3 +8648,25 @@ section,
   transform: scale(1.1);
   color: #fff;
 }
+
+
+/*--------------------------------------------------------------
+# Services WhatsApp Button 
+--------------------------------------------------------------*/
+.whatsapp-btn {
+  margin-left: 6px;
+  color: #25D366;
+  font-size: 16px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.whatsapp-btn i {
+  vertical-align: middle;
+}
+
+.btn-book {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 15px;
+}
