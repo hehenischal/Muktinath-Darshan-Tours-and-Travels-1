@@ -1061,7 +1061,8 @@ section,
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
+  color: var(--default-color);
 }
 
 .why-us .stats-row {
@@ -1086,7 +1087,8 @@ section,
 
 .why-us .stat-item .stat-label {
   font-size: 0.9rem;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 30%); */
+  color: var(--default-color);
   margin-top: 0.25rem;
 }
 
@@ -1208,7 +1210,8 @@ section,
 .why-us .feature-card p {
   font-size: 1rem;
   line-height: 1.6;
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 25%); */
+  color: var(--default-color);
   margin-bottom: 0;
 }
 
@@ -1476,7 +1479,8 @@ section,
 .featured-destinations .compact-destination .destination-details .brief {
   font-size: 13px;
   line-height: 1.4;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
+  color: var(--default-color);
   margin-bottom: 12px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
