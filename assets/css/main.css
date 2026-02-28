@@ -8887,3 +8887,23 @@ section,
 .swiper-pagination-bullet {
   background: #f4b400;
 }
+
+.rating-overview {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.overall-stars {
+  font-size: 28px;
+  color: #ffc107 !important;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.rating-overview p {
+  font-size: 16px;
+  color: #555;
+}
+
+
+
