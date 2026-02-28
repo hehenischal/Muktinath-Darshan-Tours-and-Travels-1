@@ -1875,7 +1875,7 @@ section,
 /*--------------------------------------------------------------
 # Testimonials Home Section
 --------------------------------------------------------------*/
-/* .testimonials-home .testimonials-carousel,
+.testimonials-home .testimonials-carousel,
 .testimonials-home .testimonials-slider {
   overflow: hidden;
 }
@@ -8813,4 +8813,77 @@ section,
 @keyframes fadeIn {
   from { transform: scale(0.9); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
+}
+
+
+
+
+
+/* ================= Reviews Section ================= */
+
+.reviews {
+  padding: 80px 0;
+  background: #f9fafc;
+}
+
+.rating-overview {
+  margin-top: 15px;
+}
+
+.overall-stars {
+  font-size: 30px;
+  color: #f4b400;
+  letter-spacing: 4px;
+}
+
+.review-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.review-card:hover {
+  transform: translateY(-6px);
+}
+
+.review-stars {
+  color: #f4b400;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.review-card p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 20px;
+  min-height: 90px;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.review-user i {
+  font-size: 40px;
+  color: #ccc;
+}
+
+.review-user h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.review-user span {
+  font-size: 13px;
+  color: #777;
+}
+
+.swiper-pagination-bullet {
+  background: #f4b400;
 }
